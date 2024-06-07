@@ -1,0 +1,4 @@
+one:
+  id: 1
+  source_text: hello world! how are you today, world?
+  glossary_id: 1

@@ -1,0 +1,11 @@
+one:
+  id: 1
+  glossary_id: 1
+  source_term: hello
+  target_term: hola
+
+two:
+  id: 2
+  glossary_id: 1
+  source_term: world
+  target_term: mundo
