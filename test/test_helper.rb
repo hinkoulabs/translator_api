@@ -6,6 +6,9 @@ require "rails/test_help"
 require "minitest/rails"
 require 'mocha/minitest'
 
+require "minitest/reporters"
+Minitest::Reporters.use!
+
 module ActiveSupport
   class TestCase
     # Run tests in parallel with specified workers

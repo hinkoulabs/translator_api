@@ -10,6 +10,7 @@
 # Ignore all environment files (except templates).
 /.env*
 !/.env*.erb
+!/.env.sample
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -33,3 +34,4 @@
 /config/master.key
 
 .idea
+/config/credentials/production.key
